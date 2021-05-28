@@ -1,4 +1,2 @@
 #!/bin/bash
-yum update -y
-yum install -y httpd
-yum remove index.html
+yum install httpd -y
